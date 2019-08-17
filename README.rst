@@ -65,6 +65,10 @@ Pydeepl supports these languages:
 +--------+-----------------+
 | PL     | Polish          |
 +--------+-----------------+
+| PT     | Portuguese      |
++--------+-----------------+
+| RU     | Russian         |
++--------+-----------------+
 
     Note that auto detection is only possible for the source language.
 
