@@ -10,7 +10,8 @@ LANGUAGES = {
     'ES': 'Spanish',
     'IT': 'Italian',
     'NL': 'Dutch',
-    'PL': 'Polish'
+    'PL': 'Polish',
+    'JA': 'Japanese'
 }
 
 JSONRPC_VERSION = '2.0'
@@ -76,7 +77,7 @@ def translate(text, to_lang, from_lang='auto', json=False):
         'params': {
             'jobs': [
                 {
-                    'kind':'default',
+                    'kind': 'default',
                     'raw_en_sentence': text
                 }
             ],
